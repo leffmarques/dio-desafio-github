@@ -1,0 +1,22 @@
+dir (ls)	        vê todos os arquivos e pastas do diretório
+cd /	            volta pro C:/
+cd (nome da pasta)	avança uma pasta
+cd ..		        volta uma pasta
+cls		            limpa a tela
+Tab	            	autocompletar
+mkdir	        	cria uma pasta
+mv                  move um arquivo. ex: mv strogonoff.ms ./receitas/ (moveu o arquivo strogonoff.md para a pasta receitas no mesmo diretório)
+./                  significa que tá na mesma pasta atual
+echo >	            ex: echo hello > hello.txt vai jogar o texto "hello" dentro do arquivo hello.txt
+del		            deleta arquivos ou arquivos dentro de uma pasta
+seta pra cima       repete comandos
+rmdir "nome" /S /Q	remove a pasta
+
+no linux pra remover a pasta
+rm -rf *nome"/
+
+
+-a      mostra arquivos ocultos dentro do ls
+
+
+

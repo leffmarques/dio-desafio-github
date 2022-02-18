@@ -1,0 +1,21 @@
+BÁSICO DE git
+
+openssl sha1 "nome.txt"     gera o conjunto de caracteres criptografados
+
+git init                               //iniciar o repositório
+git add                                //move o arquivo pra stage (ex. git add strogonoff.md receitas/ [adicionou o arquivo strogonoff.md e a pasta "receitas"])
+git add *                              //move tudo untracked pra staged
+git commit -m "mensagem que quiser"    //criar o commit. se tiver "nothing to commit", tá tudo commitado
+git status                             //mostra o status dos arquivos nas pastas
+echo > filename.md                     //  cria um arquivo chamado filename.md vazio
+
+git restore --staged <file>   tira os arquivos do modo stage 
+git config --list             trás a lista de todas as configurações do meu git
+git config --global --unset user.nickname         apagar informação (trocar user.nickname por qualquer coisa que quiser apagar)
+git config --global user.nickname "leffmarques"   adicionar informação (trocar user.nickname por qualquer coisa que quiser adicionar)
+
+
+ENVIAR PRO REPOSITÓRIO REMOTO GITHUB
+git remote add origin https://github.com/leffmarques/livro-receitas-aula.git        (adicionar o repositório a esse link)
+git remote -v                                                                       (lista os repositórios remotos cadastrados)
+git push origin master                                                              (empurra pro github)

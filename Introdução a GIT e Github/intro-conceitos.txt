@@ -1,0 +1,32 @@
+SHA - Secure Hash Algorithm
+encripta os dados em 40 dígitos
+
+***OBJETOS
+
+BLOBS contém metadados internos do código
+TREES contém BLOBS e TREES
+COMMITS contém TREES
+
+Todos eles geram SHA1 para encriptar, qualquer coisa em qualquer nível altera o SHA1
+
+***Chave SSH
+não requer senha
+
+***Token
+sempre pede senha quando gerar um commit
+
+
+
+Arquivos Tracked - mapeados pelo git
+unmodified           ainda não sofreu modificação
+modified             sofreu modificação
+staged               fica preparado pra entrar em ação. Arquivos staged estão prontos para commit
+commit               retorna pra unmodified, tira uma foto da situação
+
+
+
+
+BÁSICO SOBRE REPOSITÓRIOS
+-não tem conexão automática com o repositório remoto
+-no pc é o working directory ou staging area
+-quando commita, o arquivo passa a integrar o repositório local
